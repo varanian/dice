@@ -12,7 +12,6 @@ constructor() {
     lados: '',
     lanzadas: ''
   };
-
 }
 
 dice = () => {
