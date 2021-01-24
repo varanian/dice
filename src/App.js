@@ -43,7 +43,7 @@ clearState = () => {
         <input 
 
           type='number' 
-          placeholder='Numero de lanzadas' 
+          placeholder='Number of throws' 
           onChange={lanzadas => this.setState({ lanzadas: lanzadas.target.value }) }
 
         />
@@ -51,7 +51,7 @@ clearState = () => {
          <input 
 
           type='number' 
-          placeholder='Numero de lados'
+          placeholder='Number of sides'
           onChange={lados => this.setState({ lados: lados.target.value })}
 
          />
