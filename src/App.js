@@ -55,10 +55,14 @@ clearState = () => {
 
          />
 
-        <button onClick={ this.clearState } > Clear </button>
+         <div className= "Buttons"> 
 
-        <button onClick={ this.diceRoller }> Roll a Dice </button>
+          <button onClick={ this.clearState } > Clear </button>
 
+          <button onClick={ this.diceRoller }> Roll a Dice </button>
+
+         </div>
+        
         <BoxContainer testArray={ this.state.testArray } /> 
 
       </div>
