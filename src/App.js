@@ -63,7 +63,7 @@ clearState = () => {
 
          </div>
         
-        <BoxContainer testArray={ this.state.testArray } /> 
+        <BoxContainer testArray={ this.state.testArray } onClick={ this.testArray = null } /> 
 
       </div>
     )  

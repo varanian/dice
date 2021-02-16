@@ -4,11 +4,11 @@ import './box-container.style.css';
 
 export const BoxContainer = (props) => (
 
-	<div className= 'box-container'> 
+	<div className= 'box-container' > 
 
 	 { props.testArray.map( (testArray, index) => ( 
 
-	 	<BoxCard key={ index } testArray= { testArray }/>  
+	 	<BoxCard key={ index } testArray= { testArray } onClick={ () => props.testArray( null )}/>  
 
 	 ))}
 
