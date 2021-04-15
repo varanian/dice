@@ -8,7 +8,7 @@ export const BoxContainer = (props) => (
 
 	 { props.testArray.map( (testArray, index) => ( 
 
-	 	<BoxCard key={ index } testArray= { testArray } onClick={ () => props.testArray( null )}/>  
+	 	<BoxCard key={ index } testArray= { testArray } />  
 
 	 ))}
 
